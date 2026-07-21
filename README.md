@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/subham220326/LEETCODE/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/subham220326/LEETCODE/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/subham220326/LEETCODE/tree/master/0128-longest-consecutive-sequence) |
+| [0229-majority-element-ii](https://github.com/subham220326/LEETCODE/tree/master/0229-majority-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/subham220326/LEETCODE/tree/master/0560-subarray-sum-equals-k) |
 ## Two Pointers
 |  |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/subham220326/LEETCODE/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/subham220326/LEETCODE/tree/master/0128-longest-consecutive-sequence) |
+| [0229-majority-element-ii](https://github.com/subham220326/LEETCODE/tree/master/0229-majority-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/subham220326/LEETCODE/tree/master/0560-subarray-sum-equals-k) |
 ## Union-Find
 |  |
@@ -44,4 +46,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/subham220326/LEETCODE/tree/master/0560-subarray-sum-equals-k) |
+## Sorting
+|  |
+| ------- |
+| [0229-majority-element-ii](https://github.com/subham220326/LEETCODE/tree/master/0229-majority-element-ii) |
+## Counting
+|  |
+| ------- |
+| [0229-majority-element-ii](https://github.com/subham220326/LEETCODE/tree/master/0229-majority-element-ii) |
 <!---LeetCode Topics End-->
