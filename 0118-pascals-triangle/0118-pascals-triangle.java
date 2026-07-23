@@ -1,33 +1,18 @@
 class Solution {
     public List<List<Integer>> generate(int numRows) {
-        List<List<Integer>> triangle = new ArrayList<>();
-
-        if (numRows <= 0) {
-            return triangle;
-        }
-
-        List<Integer> firstRow = new ArrayList<>();
-        firstRow.add(1);
-        triangle.add(firstRow);
+       List<List<Integer>> al = new ArrayList<>();
   
-        for (int i = 1; i < numRows; i++) {
-
-            List<Integer> prevRow = triangle.get(i - 1);
-            
-
-            List<Integer> currentRow = new ArrayList<>();
-            
-      
-            currentRow.add(1);
-
-            for (int j = 1; j < i; j++) {
-                int sum = prevRow.get(j - 1) + prevRow.get(j);
-                currentRow.add(sum);
+        for(int i=0;i<numRows;i++){
+            long res=1;
+            ArrayList<Integer>al1=new ArrayList<>();
+            al1.add(1);
+            for(int j=0;j<i;j++){
+                res=res*(i-j);
+                res=res/(j+1);
+                al1.add((int)res);
             }
-            currentRow.add(1);
-            triangle.add(currentRow);
+            al.add(al1);
         }
-        
-        return triangle;
+        return al;
     }
-    }
+}
