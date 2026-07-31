@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/subham220326/LEETCODE/tree/master/0128-longest-consecutive-sequence) |
 | [0229-majority-element-ii](https://github.com/subham220326/LEETCODE/tree/master/0229-majority-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/subham220326/LEETCODE/tree/master/0560-subarray-sum-equals-k) |
+| [3731-find-missing-elements](https://github.com/subham220326/LEETCODE/tree/master/3731-find-missing-elements) |
 ## Two Pointers
 |  |
 | ------- |
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/subham220326/LEETCODE/tree/master/0128-longest-consecutive-sequence) |
 | [0229-majority-element-ii](https://github.com/subham220326/LEETCODE/tree/master/0229-majority-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/subham220326/LEETCODE/tree/master/0560-subarray-sum-equals-k) |
+| [3731-find-missing-elements](https://github.com/subham220326/LEETCODE/tree/master/3731-find-missing-elements) |
 ## Union-Find
 |  |
 | ------- |
@@ -58,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/subham220326/LEETCODE/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/subham220326/LEETCODE/tree/master/0088-merge-sorted-array) |
 | [0229-majority-element-ii](https://github.com/subham220326/LEETCODE/tree/master/0229-majority-element-ii) |
+| [3731-find-missing-elements](https://github.com/subham220326/LEETCODE/tree/master/3731-find-missing-elements) |
 ## Counting
 |  |
 | ------- |
