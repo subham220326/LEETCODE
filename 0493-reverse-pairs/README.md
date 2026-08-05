@@ -28,7 +28,23 @@
 (2, 4) --&gt; nums[2] = 3, nums[4] = 1, 3 &gt; 2 * 1
 (3, 4) --&gt; nums[3] = 5, nums[4] = 1, 5 &gt; 2 * 1
 </pre>
+. Today: Reverse Pairs (Separated Logic)
 
+Today, we cannot count and sort at the same time.
+If we put L[i] > 2 * R[j] into our sorting loop, it would completely ruin the sorting algorithm (the array wouldn't end up sorted properly). If we left the sorting loop as L[i] > R[j], it wouldn't count the Reverse Pairs correctly.
+
+The Solution: We must completely separate the counting from the merging.
+
+If you look at today's mergeSort() function, you will see it happens in two distinct steps:
+
+// 1. FIRST: Count the valid reverse pairs using a sliding window
+count += countCrossPairs(nums, left, mid, right);
+
+// 2. SECOND: Do a standard, completely normal merge sort step
+merge(nums, left, mid, right);
+
+
+By doing this, we can safely use the > 2 * nums[j] rule to count, and then use the standard > nums[j] rule to sort the arrays so they are ready for the next level of recursion.
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
