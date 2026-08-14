@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+      <animate attributeName="x1" values="0;1;0" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0;1" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .title{font:700 44px 'Segoe UI',Inter,Arial,sans-serif; fill:#f8fafc;}
+      .subtitle{font:500 18px 'Segoe UI',Inter,Arial,sans-serif; fill:#cbd5e1;}
+      .label{font:600 14px 'Segoe UI',Inter,Arial,sans-serif; fill:#e2e8f0;}
+      .small{font:500 12px 'Segoe UI',Inter,Arial,sans-serif; fill:#94a3b8;}
+      .code{font:600 13px 'JetBrains Mono',Consolas,monospace; fill:#67e8f9;}
+    </style>
+  </defs>
+
+  <rect width="1400" height="420" rx="28" fill="url(#bg)"/>
+
+  <g opacity="0.15">
+    <path d="M0 320 C180 250 260 350 420 300 C580 250 640 170 820 210 C980 245 1090 340 1400 250"
+          fill="none" stroke="url(#accent)" stroke-width="2">
+      <animate attributeName="stroke-dasharray" values="0,1800;300,1500;0,1800" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-40 120 C120 180 250 70 430 120 C610 170 700 260 900 230 C1080 205 1200 120 1450 170"
+          fill="none" stroke="url(#accent)" stroke-width="2">
+      <animate attributeName="stroke-dashoffset" values="0;200;-200;0" dur="10s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="1120" cy="120" r="64" fill="url(#glow)"/>
+    <circle cx="1120" cy="120" r="34" fill="url(#accent)" filter="url(#softGlow)">
+      <animate attributeName="r" values="30;38;30" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1120" cy="120" r="88" fill="none" stroke="url(#accent)" stroke-opacity="0.35" stroke-width="1.5"
+            stroke-dasharray="6 8">
+      <animateTransform attributeName="transform" type="rotate" from="0 1120 120" to="360 1120 120" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1120" cy="120" r="112" fill="none" stroke="url(#accent)" stroke-opacity="0.18" stroke-width="1"
+            stroke-dasharray="3 10">
+      <animateTransform attributeName="transform" type="rotate" from="360 1120 120" to="0 1120 120" dur="24s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1208" cy="120" r="4" fill="#67e8f9">
+      <animateTransform attributeName="transform" type="rotate" from="0 1120 120" to="360 1120 120" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1008" cy="120" r="3" fill="#a78bfa">
+      <animateTransform attributeName="transform" type="rotate" from="360 1120 120" to="0 1120 120" dur="24s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g opacity="0.65">
+    <circle cx="180" cy="70" r="3" fill="#67e8f9">
+      <animate attributeName="cy" values="70;58;70" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="110" r="2.5" fill="#a78bfa">
+      <animate attributeName="cy" values="110;98;110" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1260" cy="300" r="3" fill="#67e8f9">
+      <animate attributeName="cy" values="300;286;300" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1320" cy="250" r="2.5" fill="#a78bfa">
+      <animate attributeName="cy" values="250;238;250" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g transform="translate(72,72)">
+    <text class="title" x="0" y="0">YOUR PROJECT NAME</text>
+    <text class="subtitle" x="0" y="34">Build • Analyze • Visualize • Deploy</text>
+
+    <g transform="translate(0,64)">
+      <rect x="0" y="0" rx="14" ry="14" width="150" height="42"
+            fill="#0b1220" stroke="#1f2937"/>
+      <text class="label" x="22" y="27">Documentation</text>
+
+      <rect x="168" y="0" rx="14" ry="14" width="126" height="42"
+            fill="url(#accent)" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="0.95;1;0.95" dur="2.4s" repeatCount="indefinite"/>
+      </rect>
+      <text class="label" x="200" y="27" fill="#06111a">Live Demo</text>
+    </g>
+
+    <g transform="translate(0,128)">
+      <rect width="560" height="164" rx="22" fill="#0b1220" stroke="#1f2937"/>
+
+      <text class="label" x="22" y="28">Repository Dashboard</text>
+
+      <g transform="translate(22,44)">
+        <rect width="116" height="28" rx="10" fill="#111827" stroke="#1f2937"/>
+        <text class="small" x="14" y="18">Build</text>
+        <circle cx="96" cy="14" r="5" fill="#22c55e">
+          <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+
+      <g transform="translate(152,44)">
+        <rect width="116" height="28" rx="10" fill="#111827" stroke="#1f2937"/>
+        <text class="small" x="14" y="18">Tests</text>
+        <circle cx="96" cy="14" r="5" fill="#22c55e">
+          <animate attributeName="opacity" values="1;0.35;1" dur="2.1s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+
+      <g transform="translate(282,44)">
+        <rect width="116" height="28" rx="10" fill="#111827" stroke="#1f2937"/>
+        <text class="small" x="14" y="18">Deploy</text>
+        <circle cx="96" cy="14" r="5" fill="#22c55e">
+          <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+
+      <g transform="translate(22,88)">
+        <text class="code" x="0" y="0">$ npm run build</text>
+        <text class="small" x="0" y="22">Compiling production bundle...</text>
+
+        <rect x="0" y="38" width="516" height="10" rx="5" fill="#111827"/>
+        <rect x="0" y="38" width="360" height="10" rx="5" fill="url(#accent)">
+          <animate attributeName="width" values="120;516;240;516" dur="6s" repeatCount="indefinite"/>
+        </rect>
+
+        <text class="small" x="0" y="72">Status</text>
+        <text class="label" x="62" y="72" fill="#67e8f9">All systems operational</text>
+      </g>
+    </g>
+  </g>
+</svg>
