@@ -1,118 +1,98 @@
 <div align="center">
 
-  <!-- Smooth Neon Gradient Header Animation -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,33,45&height=240&section=header&text=⚡%20DAA%20ALGORITHM%20LAB%20⚡&fontSize=38&fontColor=00f2fe&animation=fadeIn&fontAlignY=36&desc=Interactive%20Design%20%26%20Analysis%20of%20Algorithms%20Workspace&descAlignY=58&descAlign=50" width="100%"/>
+  <!-- Minimalist Dynamic Header -->
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=timeGradient&height=200&section=header&text=Algorithms%20Laboratory&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Design,%20Analysis,%20%26%20Experimental%20Validation&descAlignY=65&descAlign=50" width="100%"/>
 
-  <!-- Typing Terminal Stream -->
+  <!-- Dynamic Typing Subtitle -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=800&color=00F2FE&center=true&vCenter=true&width=650&lines=Initializing+DAA_LAB+Environment...;System.out.println(%22Complexity+Optimized%22);%3E_Executing%3A+Divide+%26+Conquer+%7C+Greedy+%7C+DP;%3E_Analyzing%3A+Graph+Flows+%7C+Backtracking+%7C+Trees" alt="Typing Terminal" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=4000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=Algorithms+%C2%B7+Experiments+%C2%B7+Asymptotic+Analysis;Reproducible+Visualizations+%C2%B7+C17+Implementations;Information+Technology+%C2%B7+IIIT+Bhubaneswar" alt="Typing SVG" />
   </a>
 
   <br/>
 
-  <!-- Interactive Status & Language Pills -->
+  <!-- High-Tech Flat Badges -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Workspace-Interactive%20Lab-00f2fe?style=for-the-badge&logo=visualstudiocode&logoColor=black" />
-    <img src="https://img.shields.io/badge/C%2B%2B-20%20%7C%20C%20Standard-4facfe?style=for-the-badge&logo=cplusplus&logoColor=white" />
-    <img src="https://img.shields.io/badge/Engine-Algorithmic%20Core-7f00ff?style=for-the-badge&logo=thealgorithms&logoColor=white" />
-    <img src="https://img.shields.io/badge/Status-Optimized-00e676?style=for-the-badge&logo=githubactions&logoColor=white" />
+    <img src="https://img.shields.io/badge/Language-C17-00599C?style=flat-square&logo=c&logoColor=white" />
+    <img src="https://img.shields.io/badge/Modules-02_Active-7C3AED?style=flat-square" />
+    <img src="https://img.shields.io/badge/Methodology-Theory_%2B_Experiment-22C55E?style=flat-square" />
+    <img src="https://img.shields.io/badge/Status-Up_to_Date-F97316?style=flat-square" />
   </p>
 
-  <!-- Algorithm Animation GIF Banner -->
-  <img src="https://raw.githubusercontent.com/yusufshakeel/CSharp-Sorting-Algorithm/master/Assets/QuickSort.gif" width="70%" style="border-radius: 12px; border: 2px solid #00f2fe; margin: 15px 0;" alt="Algorithm Visualization" />
-
 </div>
 
 ---
 
-### 🖥️ Interactive Module Explorer (Click to Expand)
+### 👨‍💻 Scholar Details
 
-> Click any workspace unit below to inspect algorithmic paradigms, source scripts, and asymptotic complexity boundaries.
+> **Subham Mohanty** (B425050)
+> **Branch:** Information Technology  
+> **Institution:** International Institute of Information Technology, Bhubaneswar  
+> **Course:** Design and Analysis of Algorithms Laboratory (3rd Semester)  
+> **Instructor:** Dr. Ajaya Kumar Dash
+
+---
+
+### 🗂️ Laboratory Dashboard
 
 <details open>
-<summary><b>🔹 Module 01: Sorting & Divide-and-Conquer Core</b></summary>
+<summary><b>🧪 Lab 01: Algorithmic Foundations & Growth Rates</b> <i>(Click to collapse)</i></summary>
 <br>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/yusufshakeel/CSharp-Sorting-Algorithm/master/Assets/MergeSort.gif" width="45%" style="border-radius: 8px; border: 1px solid #4facfe;" />
-</div>
+Six core experiments establishing the baseline for asymptotic analysis, basic recursion, and probability.
 
-<br/>
+* **Q-1:** Functions ordered by increasing asymptotic growth
+* **Q-2:** Fair vs. Biased coin probability simulations (`P → 0.5`)
+* **Q-3:** Early-exit vs. Fixed-pass Bubble Sort experimental comparison
+* **Q-4:** Towers of Hanoi exponential growth analysis (`2ⁿ − 1`)
+* **Q-5:** Identifying the `0 → 1` transition point via Binary Search
+* **Q-6:** Pairwise uniqueness checking (Quadratic worst-case growth)
 
-| Algorithm | Paradigm | Best Case | Average Case | Worst Case | Space Complexity |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Quick Sort** | Divide & Conquer | $\mathcal{O}(n \log n)$ | $\mathcal{O}(n \log n)$ | $\mathcal{O}(n^2)$ | $\mathcal{O}(\log n)$ |
-| **Merge Sort** | Divide & Conquer | $\mathcal{O}(n \log n)$ | $\mathcal{O}(n \log n)$ | $\mathcal{O}(n \log n)$ | $\mathcal{O}(n)$ |
-| **Heap Sort** | Tree Selection | $\mathcal{O}(n \log n)$ | $\mathcal{O}(n \log n)$ | $\mathcal{O}(n \log n)$ | $\mathcal{O}(1)$ |
-
+👉 **[Explore Lab 01 Workspace](lab1/README.md)**
 </details>
 
-<details>
-<summary><b>🔹 Module 02: Greedy Methods & Graph Traversals</b></summary>
+<details open>
+<summary><b>🧱 Lab 02: Structural Trade-offs & Advanced Sorting</b> <i>(Click to collapse)</i></summary>
 <br>
 
-| Problem Focus | Strategy | Optimal Structure | Time Complexity |
-| :--- | :--- | :--- | :--- |
-| **Dijkstra's Algorithm** | Single-Source Shortest Path | Min-Heap / Priority Queue | $\mathcal{O}((V + E) \log V)$ |
-| **Prim's / Kruskal's** | Minimum Spanning Tree | Disjoint Set Union (DSU) | $\mathcal{O}(E \log V)$ |
-| **Huffman Coding** | Lossless Compression | Optimal Prefix Tree | $\mathcal{O}(n \log n)$ |
-| **Fractional Knapsack** | Value-to-Weight Optimization | Greedy Ratio Sorting | $\mathcal{O}(n \log n)$ |
+Deep dives into data structure representations, merging strategies, and theoretical vs. experimental validation.
 
-</details>
+* **Q-1 (Dictionary ADT):** Benchmarking 7 operations across 6 structures (`O(1)`, `O(log n)`, `O(n)`).
+* **Q-2 (Merge Sort):** Interactive 2-way vs 3-way sort selector. Validated both as `Θ(n log n)`.
+* **Q-3 (k-Array Merger):** Sequential accumulation (`Θ(nk²)`) vs. Balanced merging (`Θ(nk log k)`).
 
-<details>
-<summary><b>🔹 Module 03: Dynamic Programming & State Transitions</b></summary>
-<br>
-
-| Problem Focus | State Recurrence | Memory Footprint | Time Complexity |
-| :--- | :--- | :--- | :--- |
-| **0/1 Knapsack** | $DP[i][w] = \max(DP[i-1][w], DP[i-1][w-w_i] + v_i)$ | $\mathcal{O}(n \cdot W)$ | $\mathcal{O}(n \cdot W)$ |
-| **Longest Common Subsequence** | $DP[i][j] = DP[i-1][j-1] + 1$ | $\mathcal{O}(m \cdot n)$ | $\mathcal{O}(m \cdot n)$ |
-| **Floyd-Warshall** | $D^{(k)}[i][j] = \min(D^{(k-1)}[i][j], D^{(k-1)}[i][k] + D^{(k-1)}[k][j])$ | $\mathcal{O}(V^2)$ | $\mathcal{O}(V^3)$ |
-
-</details>
-
-<details>
-<summary><b>🔹 Module 04: Backtracking & State Space Tree Search</b></summary>
-<br>
-
-| Problem | Search Strategy | Bound Pruning Rule | Bound |
-| :--- | :--- | :--- | :--- |
-| **$N$-Queens Problem** | Depth-First Backtracking | Diagonal & Column Conflict Checks | $\mathcal{O}(N!)$ |
-| **Graph Coloring** | State Space Tree Pruning | Adjacent Vertex Color Equivalence | $\mathcal{O}(m^V)$ |
-| **Hamiltonian Cycle** | Recursive Cycle Traversal | Visited Vertex & Adjacency Constraints | $\mathcal{O}(N!)$ |
-
+👉 **[Explore Lab 02 Workspace](lab2/README.md)**
 </details>
 
 ---
 
-### 📊 Live Analytics & Engine Metrics
+### 🧬 Reproducibility & Research Philosophy
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=subham220326&show_icons=true&theme=cyberpunk&hide_border=true&title_color=00f2fe&icon_color=4facfe&text_color=e0e0e0&bg_color=0d1117" height="155" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=subham220326&layout=compact&theme=cyberpunk&hide_border=true&title_color=00f2fe&text_color=e0e0e0&bg_color=0d1117" height="155" alt="Top Languages" />
-</div>
+This repository strictly adheres to the principle of keeping the **algorithm**, the **measurement**, and the **visual evidence** tightly coupled.
 
-<br/>
-
-<div align="center">
-  <!-- Dynamic GitHub Streak / Activity Card -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=subham220326&theme=cyberpunk&hide_border=true&background=0D1117&ring=00F2FE&fire=00F2FE&currStreakLabel=00F2FE" width="70%" alt="GitHub Streak Tracker" />
-</div>
+| Core Standard | Implementation Strategy |
+| :--- | :--- |
+| **C-First Engineering** | All algorithmic foundations and experiments are written in raw `C17`. |
+| **Theory Beside Evidence** | Every asymptotic conclusion (`Θ(n log n)`, `2ⁿ − 1`) is backed by measured data or step-by-step trace validation. |
+| **Deterministic Data** | Fixed data generation pipelines are utilized wherever strict reproducibility matters. |
+| **Automated Artifacts** | GNUPlot scripts and standalone C programs generate `.svg` and `.gif` artifacts directly from the source code. |
 
 ---
 
-### ⚙️ Quick Start & Execution
+### 📂 Architecture & Build Workflow
 
-```bash
-# 1. Clone your lab workspace
-git clone [https://github.com/subham220326/DAA_LAB.git](https://github.com/subham220326/DAA_LAB.git)
-
-# 2. Access the project directory
-cd DAA_LAB
-
-# 3. Build with optimal compiler flags (-O3 optimization level)
-g++ -O3 -Wall -Wextra main.cpp -o daa_runner
-
-# 4. Run the compiled algorithmic suite
-./daa_runner
+```text
+DAA-Lab/
+├── README.md                      ← Global Dashboard
+├── Makefile                       ← Root compilation directives
+├── assets/                        ← Repository-wide visualizations
+├── scripts/                       ← Utility & build helpers
+│
+├── lab1/                          ← Lab 01: Foundations
+│   ├── README.md
+│   ├── Problem-Sheet.pdf
+│   └── Q-1/ to Q-6/               ← Isolated experiment modules
+│
+└── lab2/                          ← Lab 02: Structures & Trade-offs
+    ├── README.md
+    ├── assets/                    ← Animations (pipeline.gif, etc.)
+    └── Q-1/ to Q-3/               ← Dictionary ops, n-way merges
