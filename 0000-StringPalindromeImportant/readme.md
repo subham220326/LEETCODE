@@ -16,7 +16,7 @@
   <br>
 
   <!-- YOUR NEW CUSTOM ANIMATED SVG FLOWCHART -->
-  <img src="./assests/lab-flow.svg" alt="Animated Course Pipeline" width="100%" />
+  <img src="../assests/lab-flow.svg" alt="Animated Course Pipeline" width="100%" />
 
   <br><br>
 
